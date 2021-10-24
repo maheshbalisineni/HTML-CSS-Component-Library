@@ -1,0 +1,54 @@
+{
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "cascadia code, Opeartor Mono, Menlo, Monaco,'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 20,
+  "editor.fontWeight": "400",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  }
+}

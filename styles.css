@@ -3,8 +3,10 @@
 :root {
   --primary-color: #00bfa6;
   --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
 }
 body {
+  margin: 0px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -90,4 +92,35 @@ hr {
 
 .programmer .programmer-heading .heading-inverted {
   color: var(--primary-color);
+}
+
+/* sections */
+
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
